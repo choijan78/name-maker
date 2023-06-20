@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "This website helps you to choose name of your pet or even your child.",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "dev": "nodemon --exec babel-node src/server.js"
   },
