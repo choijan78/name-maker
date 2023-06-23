@@ -1,6 +1,22 @@
-@import "./_variables";
+// Config
+@import "./config/_variables.scss";
+@import "./config/_reset.scss";
 
+// Components
+@import "./components/header.scss";
+@import "./components/footer.scss";
+@import "./components/social-login.scss";
+@import "./components/forms.scss";
+
+// Screens
+@import "./screens/home.scss";
+@import "./screens/login.scss";
+@import "./screens/join.scss";
+
+// Defaults
 body {
   background-color: $bgColor;
   color: $color;
+  width: 100vw;
+  height: 100vh;
 }

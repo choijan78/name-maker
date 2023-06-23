@@ -1,0 +1,14 @@
+extends base
+
+block content
+    if errorMessage
+        span=errorMessage
+    div.form-div
+        form(method="POST").login-form
+            input.form-id(placeholder="ID", name="id", type="text", required)
+            input.form-pw(placeholder="Password", name="password", type="password", required)
+            input.form-submit(type="submit", value="Login")
+            include partials/social-login
+        div.auth-switch
+            span Don't have an account? 
+            a(href="/join") Create one now &rarr;

@@ -1,0 +1,55 @@
+.flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // background-color: rosybrown;
+  height: 90vh;
+}
+
+@keyframes shadow {
+  0% {
+    filter: drop-shadow(0 0 0.5rem orange);
+  }
+  50% {
+    filter: drop-shadow(0 0 2rem orange);
+  }
+  100% {
+    filter: drop-shadow(0 0 0.5rem orange);
+  }
+}
+
+#greeting {
+  // background-color: yellowgreen;
+  margin: 20px;
+  h1 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 17px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+}
+
+#startBtn {
+  color: orange;
+  text-decoration: none;
+  background-color: darkolivegreen;
+  width: 220px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 40px;
+  font-weight: 500;
+  margin: 20px;
+  // filter: drop-shadow(0 0 0.75rem crimson);
+  animation: shadow 2s ease-in-out infinite;
+}
+
+#startBtn:hover {
+  filter: drop-shadow(0 0 0.75rem darkolivegreen);
+  animation: none;
+  color: $bgColor;
+}

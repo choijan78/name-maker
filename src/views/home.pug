@@ -1,4 +1,9 @@
 extends base.pug
 
 block content
-    h1 Home!
+    div.flexbox
+        div#greeting
+            h1 Name Maker에 오신 여러분을 환영합니다.
+            h2 이곳은 새로운 이름을 찾는 방랑자들로 가득합니다.
+        a(href="/login")#startBtn 시작하기
+    script(src="/assets/js/home.js")
