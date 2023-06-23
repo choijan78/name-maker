@@ -1,3 +1,4 @@
+export const home = (req, res) => res.render("home", { pageTitle: "Home" });
 export const join = (req, res) => res.render("join", { pageTitle: "Login" });
 export const login = (req, res) => res.render("login", { pageTitle: "Login" });
 export const edit = (req, res) => res.send("Edit User");

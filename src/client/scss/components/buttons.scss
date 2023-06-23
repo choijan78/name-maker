@@ -1,0 +1,28 @@
+.btnST1 {
+  text-decoration: none;
+  color: orange;
+  background-color: darkolivegreen;
+  width: 220px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 40px;
+  font-weight: 500;
+  margin: 20px;
+  animation: shadow 2s ease-in-out infinite;
+}
+
+.btnST1:hover {
+  filter: drop-shadow(0 0 0.75rem black);
+  animation: none;
+  color: #333333;
+}
+
+#name-finder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+}

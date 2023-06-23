@@ -30,26 +30,3 @@
     font-size: 24px;
   }
 }
-
-#startBtn {
-  color: orange;
-  text-decoration: none;
-  background-color: darkolivegreen;
-  width: 220px;
-  height: 220px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  font-size: 40px;
-  font-weight: 500;
-  margin: 20px;
-  // filter: drop-shadow(0 0 0.75rem crimson);
-  animation: shadow 2s ease-in-out infinite;
-}
-
-#startBtn:hover {
-  filter: drop-shadow(0 0 0.75rem darkolivegreen);
-  animation: none;
-  color: $bgColor;
-}

@@ -1,0 +1,36 @@
+header {
+  color: darkolivegreen;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 20px 30px;
+  // background-color: red;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  a {
+    color: darkolivegreen;
+    text-decoration: none;
+  }
+  ul {
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    a {
+      color: darkolivegreen;
+      text-decoration: none;
+    }
+  }
+}
+
+#div_title {
+  display: flex;
+  justify-content: center;
+}
+
+#h1_title {
+  font-size: 70px;
+  margin-top: 90px;
+}

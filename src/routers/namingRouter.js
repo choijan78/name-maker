@@ -1,9 +1,9 @@
 import express from "express";
-import { pet, baby, alias } from "../Controllers/namingController";
-const videoRouter = express.Router();
+import { animal, human, alias } from "../Controllers/namingController";
+const namingRouter = express.Router();
 
-videoRouter.get("/pet", pet);
-videoRouter.get("/baby", baby);
-videoRouter.get("/alias", alias);
+namingRouter.get("/animal", animal);
+namingRouter.get("/human", human);
+namingRouter.get("/alias", alias);
 
-export default videoRouter;
+export default namingRouter;
